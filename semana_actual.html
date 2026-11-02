@@ -3,42 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asignación de la Semana</title>
+    <title>Atril | Tesoros de la Biblia (10 min)</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+      body {
+        background-color: #f8fafc;
+        font-family: system-ui, -apple-system, sans-serif;
+      }
+      .atril-card {
+        background: #ffffff !important;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        text-align: left !important;
+        transition: none !important;
+        padding: 1.25rem !important;
+        margin-bottom: 1.25rem !important;
+      }
+      .atril-card:hover {
+        transform: none !important;
+      }
+      .time-badge {
+        font-size: 0.95rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+      }
+      .scripture-box {
+        background-color: #f1f5f9;
+        border-left: 4px solid #0d6efd;
+        border-radius: 6px;
+        padding: 1rem;
+        margin: 0.75rem 0;
+      }
+      .highlight-word {
+        background-color: #fef08a;
+        font-weight: 800;
+        padding: 0 4px;
+        border-radius: 3px;
+      }
+      ul.atril-list {
+        padding-left: 1.25rem;
+        margin-bottom: 0;
+      }
+      ul.atril-list li {
+        margin-bottom: 0.55rem;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        color: #1e293b;
+      }
+      .metaphor-banner {
+        background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+        border: 1px solid #bfdbfe;
+        border-radius: 10px;
+        padding: 1rem;
+      }
+    </style>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand fs-3" href="index.html">← Menú Principal</a>
-          <span class="navbar-text text-white fs-5 fw-bold">Asignación Semanal</span>
+          <a class="navbar-brand fs-4" href="index.html">← Menú Principal</a>
+          <span class="navbar-text text-white fs-6 fw-bold">🎙️ Atril PWA • 10:00 min</span>
         </div>
     </nav>
   </header>
   
-  <main class="container my-4">
-    <div class="card shadow-sm border-0 bg-light p-3 mb-4">
-      <h1 class="display-6 fw-bold text-primary">Tema de la Parte</h1>
-      <p class="fs-5 text-muted mb-0">Reunión de Entre Semana / Participación | Tiempo asignado: 10–15 min</p>
+  <main class="container my-3" style="max-width: 820px;">
+    <!-- Encabezado de la asignación -->
+    <div class="card atril-card border-0 mb-3" style="background: linear-gradient(135deg, #1e293b, #0f172a) !important; color: white !important;">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <span class="badge bg-warning text-dark fw-bold px-3 py-2">TESOROS DE LA BIBLIA</span>
+        <span class="badge bg-light text-dark fw-bold px-3 py-2">Semana 2–8 Nov 2026</span>
+      </div>
+      <h1 class="h3 fw-bold mb-1" style="color: #f8fafc;">Ayudamos a otros a beneficiarse de la misericordia de Jehová</h1>
+      <p class="mb-0 text-light opacity-75 fs-6">Texto temático: <strong>Jeremías 50:20</strong> • Tiempo asignado: <strong>10:00 min</strong></p>
+    </div>
+
+    <!-- Hilo conductor / Metáfora transversal -->
+    <div class="metaphor-banner mb-3 shadow-sm">
+      <div class="d-flex align-items-center">
+        <span class="fs-3 me-2">⛑️</span>
+        <div>
+          <strong class="text-primary fs-6">Hilo conductor (La brigada de rescate):</strong>
+          <p class="mb-0 text-secondary" style="font-size: 0.98rem;">
+            Al socorrer a alguien atrapado bajo los escombros, no se le juzga ni se discute con él; se le tiende la mano con sumo cuidado para salvarlo.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Introducción -->
-    <div class="card p-3 mb-3 border-start border-4 border-primary">
-      <h5 class="fw-bold text-dark">Introducción (1:30 min)</h5>
-      <p class="mb-0">Pregunta inicial o idea para despertar interés...</p>
+    <div class="card atril-card border-start border-4 border-primary">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="fw-bold text-primary mb-0">INTRODUCCIÓN</h5>
+        <span class="badge bg-primary time-badge">0:00 – 1:30 min</span>
+      </div>
+      <ul class="atril-list">
+        <li><strong>Ilustración:</strong> Una zona de desastre tras un terremoto.
+          <ul>
+            <li>El rescatista localiza a un sobreviviente atrapado bajo vigas y concreto.</li>
+            <li><em>Pregunta de reflexión:</em> ¿Se detiene el rescatista a regañarlo o a discutir por qué estaba allí?</li>
+            <li><strong>Jamás:</strong> su único impulso es remover los escombros y sacarlo a salvo.</li>
+          </ul>
+        </li>
+        <li><strong>Conexión con Jeremías 49 y 50:</strong> Castigo justo a la Babilonia opresora vs. rescate compasivo al pueblo arrepentido.</li>
+        <li><strong>Objetivo:</strong> La misericordia de Jehová nos enseña a ser rescatistas en el ministerio, no jueces.</li>
+      </ul>
     </div>
 
-    <!-- Puntos Principales -->
-    <div class="card p-3 mb-3 border-start border-4 border-warning">
-      <h5 class="fw-bold text-dark">Puntos Principales</h5>
-      <p class="mb-0">Desarrollo con textos bíblicos y aplicaciones prácticas...</p>
+    <!-- Punto I -->
+    <div class="card atril-card border-start border-4 border-warning">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="fw-bold text-dark mb-0">I. JEHOVÁ: EL GRAN RESCATADOR QUE PERDONA POR COMPLETO</h5>
+        <span class="badge bg-warning text-dark time-badge">1:30 – 5:00 min</span>
+      </div>
+      <ul class="atril-list">
+        <li><strong>Babilonia:</strong> Potencia arrogante y despiadada (<em>Jer. 50:29, 31</em>).
+          <ul>
+            <li>Actuó con maldad deliberada; Jehová aplicó justicia estricta (<em>Jer. 50:14</em>).</li>
+          </ul>
+        </li>
+        <li><strong>Israel:</strong> Cautivos arrepentidos que no podían salvarse solos.</li>
+      </ul>
+
+      <!-- Caja de Texto Léase -->
+      <div class="scripture-box shadow-sm">
+        <div class="d-flex justify-content-between align-items-center mb-1">
+          <span class="badge bg-primary fw-bold">📖 LÉASE EN PLATAFORMA</span>
+          <span class="fw-bold text-primary">Jeremías 50:20</span>
+        </div>
+        <p class="mb-0 fs-6 fst-italic" style="color: #334155;">
+          “En aquellos días y en aquel tiempo —afirma Jehová—, se buscará la culpa de Israel, pero <span class="highlight-word">NO HABRÁ NINGUNA</span>, y los pecados de Judá, pero no se hallará ninguno, porque <span class="highlight-word">LES PERDONARÉ</span> a los que yo deje quedar.”
+        </p>
+      </div>
+
+      <ul class="atril-list mt-2">
+        <li><strong>Alcance del perdón divino:</strong> Jehová no pasa factura ni guarda un inventario de errores pasados; limpia la cuenta por completo.</li>
+        <li><strong>Aplicación:</strong> Si el Dios Todopoderoso no reprocha al arrepentido, ¿cómo podríamos nosotros mirar con superioridad a las personas del territorio?</li>
+      </ul>
+    </div>
+
+    <!-- Punto II -->
+    <div class="card atril-card border-start border-4 border-info">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="fw-bold text-dark mb-0">II. NUESTRO PAPEL: RESCATISTAS COMPASIVOS EN EL MINISTERIO</h5>
+        <span class="badge bg-info text-dark time-badge">5:00 – 8:30 min</span>
+      </div>
+      <ul class="atril-list">
+        <li><strong>El panorama en el territorio:</strong> Millones atrapados espiritualmente en Babilonia la Grande (<em>Jer. 50:2</em>).
+          <ul>
+            <li>No son enemigos: son personas desorientadas bajo los escombros del engaño religioso.</li>
+          </ul>
+        </li>
+        <li><strong>Riesgo en la predicación:</strong> Caer en la tentación de "ganar" discusiones bíblicas o criticar con dureza sus costumbres.
+          <ul>
+            <li><em>Hecho:</em> El debate genera rechazo; la compasión abre corazones.</li>
+          </ul>
+        </li>
+        <li><strong>Cómo actúa un rescatista espiritual:</strong>
+          <ul>
+            <li><strong>Tacto y empatía:</strong> Escuchar con respeto sincero antes de responder (<em>2 Tim. 2:24, 25</em>).</li>
+            <li><strong>Enfoque constructivo:</strong> Mostrar la salida bíblica y la verdad liberadora en vez de atacar tradiciones.</li>
+            <li>El objetivo es tocar el corazón para que sientan el deseo de refugiarse en la misericordia de Jehová.</li>
+          </ul>
+        </li>
+      </ul>
     </div>
 
     <!-- Conclusión -->
-    <div class="card p-3 mb-3 border-start border-4 border-success">
-      <h5 class="fw-bold text-dark">Conclusión (1:30 min)</h5>
-      <p class="mb-0">Exhortación final clara y motivadora...</p>
+    <div class="card atril-card border-start border-4 border-success">
+      <div class="d-flex justify-content-between align-items-center mb-2">
+        <h5 class="fw-bold text-success mb-0">CONCLUSIÓN</h5>
+        <span class="badge bg-success text-white time-badge">8:30 – 10:00 min</span>
+      </div>
+      <ul class="atril-list">
+        <li><strong>Recapitulación:</strong>
+          <ul>
+            <li>Jehová puso fin a la tiranía, pero derramó compasión sobre el arrepentido (<em>Jer. 50:20</em>).</li>
+            <li>Nuestra comisión no es salir a combatir, sino a rescatar.</li>
+          </ul>
+        </li>
+        <li><strong>Exhortación final:</strong>
+          <ul>
+            <li>Esta semana en el servicio del campo: cuando encontremos dudas u opiniones contrarias, no discutamos.</li>
+            <li>Recordemos al rescatista: extendamos la mano con ternura y paciencia para que otros prueben la maravillosa misericordia de Jehová.</li>
+          </ul>
+        </li>
+      </ul>
     </div>
   </main>
 </body>
