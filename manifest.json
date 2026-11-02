@@ -1,0 +1,18 @@
+{
+  "name": "Atril de Discursos",
+  "short_name": "Discursos",
+  "description": "Bosquejos y oratoria teocrática para la plataforma",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#0d6efd",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3389/3389021.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
