@@ -1,9 +1,13 @@
-const CACHE_NAME = 'atril-discursos-v1';
+const CACHE_NAME = 'atril-discursos-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
   './css/styles.css',
-  './manifest.json'
+  './manifest.json',
+  './icons/icon-192.png',
+  './icons/icon-512.png',
+  './icons/apple-touch-icon.png',
+  './icons/favicon-32.png'
 ];
 
 // 1. Instalar y precargar archivos base
